@@ -1,5 +1,6 @@
 const requests = {
-    fetchAllPhones: `/api/product`
+    baseURL: "https://front-test-api.herokuapp.com",
+    fetchAllPhones: "/api/product"
 }
 
 export default requests
