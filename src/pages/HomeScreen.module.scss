@@ -1,0 +1,14 @@
+.phones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+
+@media (max-width: 560px) {
+    .homescreen__phones {
+        justify-content: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

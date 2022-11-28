@@ -1,17 +1,19 @@
 import React from 'react'
 
+import classes from './HomeScreen.module.scss'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Showcase from '../components/Showcase'
-import requests from '../lib/Requests'
 
 function HomeScreen() {
   return (
-    <div>
+    <>
       <Header />
-      <Showcase title="Available models" fetchURL={requests.fetchAllPhones} />
+      <div className={classes.phones}>
+        <Showcase />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

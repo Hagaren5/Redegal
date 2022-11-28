@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 7rem;
+    background-color: rgb(190, 182, 182);
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.showcase__phone {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(67, 65, 65);
+    padding-top: 0;
+    margin-top: 0;
+
+    & img {
+        height: 100%;
+        width: 116%;
+    }  
+}
+
+@media (max-width: 560px) {
+    .serie {
+        justify-content: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
