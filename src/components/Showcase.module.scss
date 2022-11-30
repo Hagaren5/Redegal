@@ -9,6 +9,10 @@
     margin-top: 10px;
 }
 
+.container:hover {
+    opacity: 0.8;
+}
+
 .showcase__phone {
     display: flex;
     height: 100%;

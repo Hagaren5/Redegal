@@ -5,12 +5,12 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Showcase from '../components/Showcase'
 
-function HomeScreen() {
+function HomeScreen(props) {
   return (
     <>
       <Header />
       <div className={classes.phones}>
-        <Showcase />
+        <Showcase filter={props.filter} />
       </div>
       <Footer />
     </>
