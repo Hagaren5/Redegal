@@ -6,12 +6,16 @@
 
     & img {
         border-radius: 15px;
-        max-width: 400px;
         margin: 15px;
+        height: 400px;
+        width: 300px;
     }
-    & div {
+    .description {
         max-width: 400px;
         margin: 15px;
         font-size: 1.5rem;
+    }
+    .actions{
+        margin:15px;
     }
 }

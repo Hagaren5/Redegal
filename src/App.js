@@ -9,7 +9,7 @@ function App() {
   return (
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/:phoneId" element={<PhoneDetails />} />
+        <Route exact path="/:phoneId" element={<PhoneDetails />} />
       </Routes>
   );
 }
